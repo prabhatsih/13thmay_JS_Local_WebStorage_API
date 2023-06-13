@@ -1,0 +1,13 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* :pseodo class selector */
+.search_ul{
+    display: none;
+}
+.search_input:focus + ul{ 
+    display: block;
+}
